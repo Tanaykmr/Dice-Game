@@ -33,6 +33,10 @@ if (randomNumber1 > randomNumber2)
 {
     heading.innerHTML = "🚩 Player1 wins!";
 }
+else if (randomNumber1 === randomNumber2)
+{
+    heading.innerHTML = "🚩It's a TIE!🚩";
+}
 else
 {
     heading.innerHTML = "🚩 Player2 wins!";
